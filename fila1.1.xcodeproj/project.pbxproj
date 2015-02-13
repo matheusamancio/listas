@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DDD1DCE91A8CAF6F0084B56B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1DCE81A8CAF6F0084B56B /* main.m */; };
+		DDD1DCF11A8CB23A0084B56B /* Lista.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD1DCF01A8CB23A0084B56B /* Lista.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DDD1DCE51A8CAF6F0084B56B /* fila1.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fila1.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD1DCE81A8CAF6F0084B56B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDD1DCEF1A8CB23A0084B56B /* Lista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lista.h; sourceTree = "<group>"; };
+		DDD1DCF01A8CB23A0084B56B /* Lista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lista.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		DDD1DCDC1A8CAF6F0084B56B = {
 			isa = PBXGroup;
 			children = (
+				DDD1DCEF1A8CB23A0084B56B /* Lista.h */,
+				DDD1DCF01A8CB23A0084B56B /* Lista.m */,
 				DDD1DCE71A8CAF6F0084B56B /* fila1.1 */,
 				DDD1DCE61A8CAF6F0084B56B /* Products */,
 			);
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDD1DCE91A8CAF6F0084B56B /* main.m in Sources */,
+				DDD1DCF11A8CB23A0084B56B /* Lista.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
